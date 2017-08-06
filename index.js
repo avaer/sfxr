@@ -18,7 +18,7 @@ const requestSfx = url => new Promise((accept, reject) => {
     reject(err);
   };
 
-  audio.crossOrigin = true;
+  // audio.crossOrigin = true;
   audio.src = url;
 
   document.body.appendChild(audio);
